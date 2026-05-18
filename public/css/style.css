@@ -1,0 +1,60 @@
+/* Tùy chỉnh Sticky Header & Nav */
+.sticky-top {
+    top: 0;
+    z-index: 1050;
+    background-color: white;
+}
+
+/* Tìm kiếm */
+.search-box {
+    border-radius: 25px;
+    overflow: hidden;
+    border: 1px solid #ddd;
+}
+
+/* Hover Menu */
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+}
+
+.navbar-nav .nav-link {
+    font-size: 0.95rem;
+    font-weight: 500;
+}
+
+/* Card Sản phẩm */
+.product-card {
+    transition: all 0.3s ease;
+}
+
+.product-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.1) !important;
+}
+
+/* Banner */
+.hero-banner {
+    height: 400px;
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+/* Hotline & Divider */
+.border-start {
+    border-color: #dee2e6 !important;
+    height: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Hiệu ứng mượt */
+html {
+    scroll-behavior: smooth;
+}
+
+.text-truncate {
+    display: block;
+    width: 100%;
+}
